@@ -22,7 +22,6 @@ Face_recognition/
 │   ├── creda.cpp
 │   ├── haarcascade_frontalface_alt2.xml
 │   └── Img
-├── README.md
 ├── Recognition
 │   ├── CMakeLists.txt
 │   ├── haarcascade_frontalface_alt2.xml
