@@ -1,5 +1,5 @@
-project(creda)
+project(train)
 find_package(OpenCV REQUIRED)
-add_executable(creda creda)
-target_link_libraries(creda ${OpenCV_LIBS})
+add_executable(train train)
+target_link_libraries(train ${OpenCV_LIBS})
 cmake_minimum_required(VERSION 2.8)
