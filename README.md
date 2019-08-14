@@ -13,8 +13,28 @@ Given that the configuration is not the same for everyone, I will explain the pr
 
   - Ubuntu 16.04
 
+You can clone the three branchs to your computer and put them in **a folder**.  Like this:    
 
-You can clone the three branchs to your computer and put them in **a folder**.    
+```bash
+Face_recognition/
+├── Create_database
+│   ├── CMakeLists.txt
+│   ├── creda.cpp
+│   ├── haarcascade_frontalface_alt2.xml
+│   └── Img
+├── README.md
+├── Recognition
+│   ├── CMakeLists.txt
+│   ├── haarcascade_frontalface_alt2.xml
+│   └── rec.cpp
+└── Train
+    ├── at.py
+    ├── CMakeLists.txt
+    └── train.cpp
+```
+
+
+
 The first thing you have to do is to go into each  **Step**  folder. And
 
 ```bash
